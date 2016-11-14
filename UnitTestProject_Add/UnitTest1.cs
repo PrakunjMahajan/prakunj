@@ -19,7 +19,7 @@ namespace UnitTestProject_Add
         public void TestSumResultAreNotEqual()
         {
             MathClass objMath = new MathClass();
-            Assert.AreNotEqual(25, objMath.Sum(12, 12));
+            Assert.AreNotEqual(24, objMath.Sum(12, 12));
         }
         // Test Case#3: to verify if passed ints are actually Zero 
         [TestMethod]
