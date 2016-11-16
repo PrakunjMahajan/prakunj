@@ -12,7 +12,7 @@ namespace UnitTestProject_Add
         public void TestSumResultAreEqual()
         {
             MathClass objMath = new MathClass();
-            Assert.AreEqual(25, objMath.Sum(12, 12));
+            Assert.AreEqual(24, objMath.Sum(12, 12));
         }
         // Test Case#2: to verify if passed ints are Not returning Right Result 
         [TestMethod]
